@@ -1,0 +1,16 @@
+2026-06-26 19:28:40,551 - curvature_validation - INFO - --- Using Custom Config: /Users/jiyunlee/Desktop/project/curvature/configs/temp_config_corum_min_3.json ---
+2026-06-26 19:28:40,551 - curvature_validation - INFO - --- Validation Preflight Check ---
+2026-06-26 19:28:40,551 - curvature_validation - INFO - 
+--- Tier 1: Independent CRISPR Replication (Sanger) ---
+2026-06-26 19:29:04,722 - curvature_validation - INFO -   - Sanger complete. Concordance: 9/10, Meta-P: 0.00021, P_neg: 0.9888, R-hat: 1.000
+2026-06-26 19:29:04,730 - curvature_validation - INFO - 
+--- Tier 1: Independent CRISPR Replication (DepMap 25Q3) ---
+2026-06-26 19:29:08,294 - curvature_validation - INFO -   - 25Q3 complete. Concordance: 11/11, Meta-P: 0.00000, P_neg: 0.9980, R-hat: 1.000
+2026-06-26 19:29:08,297 - curvature_validation - INFO - 
+--- Tier 3: Pharmacologic Bridge (PRISM) ---
+2026-06-26 19:29:09,501 - curvature_validation - INFO -   - PRISM complete. Significant hits: 12 nominal, 12 FDR-significant
+2026-06-26 19:29:09,505 - curvature_validation - INFO - 
+--- Benchmark: HLRC vs Standard Graph Metrics ---
+2026-06-26 19:29:46,790 - curvature_validation - INFO -   - Benchmark tables written to results/tables/graph_metric_benchmark_*.parquet
+2026-06-26 19:29:46,797 - curvature_validation - INFO - 
+--- Continuous Validation Meta-Analysis ---
